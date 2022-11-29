@@ -14,4 +14,8 @@ public class Meta {
         }
         return monto;
     }
+
+    public Object createMeta() {
+        return null;
+    }
 }

@@ -19,12 +19,13 @@ public class Archivo {
         }
     }
 
+
     public static String getUser(String name) {
         String response = "";
         try {
             Reader user = Files.newBufferedReader(Paths.get(name + ".txt"));
             BufferedReader readUser = new BufferedReader(user);
-            response = readUser.readLine();
+            response = readUser.;
         } catch (IOException e) {
             System.out.println("Error en el get...");
         }

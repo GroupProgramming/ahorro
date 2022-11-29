@@ -7,7 +7,7 @@ public class App
 
         UsuarioEsquema usuario = new UsuarioEsquema("dany");
 
-        Archivo.postUser(usuario);
+        //Archivo.postUser(usuario);
 
         System.out.println(Archivo.getUser("dany"));
 
